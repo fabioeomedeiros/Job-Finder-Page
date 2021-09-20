@@ -344,5 +344,34 @@ input#btn-search:hover {
 
 .p-center {
     width: 80%;
-    
+    position: relative;
+    margin: 0px auto;
+    font-size: 18px;
+}
+
+.status-box {
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    width: 21%;
+    margin-top: 80px;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    height: 100px;
+}
+
+.status-box:nth-child(2) {
+    border: none;
+}
+
+.status-box:nth-child(3) {
+    border-right: none;
+}
+
+.status-qtd {
+    font-size: 36px;
+}
+
+.status-text {
+    font-size: 20px; 
 }
