@@ -289,7 +289,7 @@ input#btn-search:hover {
 /* SENDJOBS CONTAINER */
 
 #sendjobs-container {
-    background: url('../imagens/banner2b.jpg');
+    background: url('../imagens/banner2.jpg');
     background-size: cover;
     background-position: center;
     padding: 150px;
@@ -437,3 +437,58 @@ input#btn-search:hover {
 .testmony-name {
     font-weight: bold;
  }
+
+ /* BOLG CONTAINER */
+
+ #blog-container {
+     text-align: left;
+     padding: 50px;
+ }
+
+ #blog-container .p-center {
+     margin-bottom: 60px;
+ }
+
+ .article-box {
+     display: inline-block;
+     width: 31%;
+     padding: 0px 10px;
+ }
+
+ .article-box img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.article-box h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.article-box h4 a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.article-date {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.article-resume {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.article-btn {
+    background-color: #3381f3;
+    border-color: #3381f3;
+    color: #f7f7f7;
+}
+
+.article-btn:hover {
+    background-color: #f7f7f7;
+    border-color: #3381f3;
+    color: #3381f3;
+}
