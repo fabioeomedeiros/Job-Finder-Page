@@ -441,7 +441,7 @@ input#btn-search:hover {
  /* BOLG CONTAINER */
 
  #blog-container {
-     text-align: left;
+     text-align: center;
      padding: 50px;
  }
 
@@ -453,6 +453,7 @@ input#btn-search:hover {
      display: inline-block;
      width: 31%;
      padding: 0px 10px;
+     text-align: left;
  }
 
  .article-box img {
