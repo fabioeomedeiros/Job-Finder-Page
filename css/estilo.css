@@ -24,6 +24,7 @@ body {
 }
 
 .container {
+    margin: 0px auto;
     max-width: 1920px;
     width: 100%;
 }
@@ -353,7 +354,7 @@ input#btn-search:hover {
     padding: 5px;
     display: inline-block;
     text-align: center;
-    width: 21%;
+    width: 23.5%;
     margin-top: 80px;
     border-left: 1px solid #dddddd;
     border-right: 1px solid #dddddd;
@@ -441,16 +442,22 @@ input#btn-search:hover {
  /* BOLG CONTAINER */
 
  #blog-container {
-     text-align: center;
+     text-align: left;
      padding: 50px;
  }
 
+ #blog-container h2 {
+    text-align: center;
+}
+
  #blog-container .p-center {
      margin-bottom: 60px;
+     text-align: justify;
  }
 
  .article-box {
      display: inline-block;
+     margin-bottom: 50px;
      width: 31%;
      padding: 0px 10px;
      text-align: left;
@@ -590,6 +597,17 @@ footer .wrapper {
 
 /* RESPONSIVIDADE */
 
+@media screen and (max-width: 1165px) {
+
+    #lastjobs-container {
+        padding: 0 2em;
+    }
+
+    #testmony-container p {
+        padding: 0 2em;
+    }
+}
+
 @media screen and (max-width: 1024px) {
 
     #logo {
@@ -628,6 +646,82 @@ footer .wrapper {
         border-width: 0;
         padding: 10px 20px;
         box-sizing: border-box;
+    }
+
+    #lastjobs-container.wrapper, #status-container.wrapper, #blog-container.wrapper, .wrapper {
+        max-width: 960px;
+        padding: 0 2em 0 2em;
+    }
+
+    .btnjobs-container {
+        margin: 25px 0px 50px 0px;
+    }
+
+    #sendjobs-container {
+        padding: 100px;
+    }
+
+    #status-container, #blog-container {
+        margin-top: 35px;
+    }
+
+    #status-container {
+        margin-bottom: 50px;
+    }
+
+    .status-box {
+        width: 23%;
+    }
+
+    .status-box p {
+        font-size: 18px;
+    }
+
+    .article-box {
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .company-box {
+        width: 46%;
+        padding-left: 1em;
+    }
+
+    .company-box .company-info h3 {
+        font-size: 1em;
+    }
+
+    .company-box .company-info p, .locality img, .locality p, .job-type span {
+        font-size: .8em;
+    }
+
+    .job-type {
+        right: 1em;
+    }
+
+    #sendjobs-container {
+        padding: 50px;
+    }
+
+    .status-box {
+        width: 22.5%;
+    }
+
+    .status-box p {
+        font-size: 14px;
+    }
+
+    .testmony-box {
+        width: 49%;
+    }
+
+    .article-box {
+        width: 100%;
+        display: block;
+        padding: 0px;
     }
 
 }
