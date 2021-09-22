@@ -601,6 +601,58 @@ footer .wrapper {
     margin-top: 40px;
 }
 
+/* FINDJOBS PAGE */
+#findjobs #search-form {
+    padding: 2em 0 2em 0;
+    width: 100%;
+    background-color: #3381f3;
+    border-top: 5px solid #0000e6;
+}
+
+#lastjobs-container #findjobs-container {
+    margin-top: 3em;
+}
+
+#search-form input, #search-form select {
+    width: 20%;
+}
+
+#findjobs #search-form input[type=submit] {
+    background-color: #f7f7f7;
+    color: #3381f3;
+}
+
+#findjobs #lastjobs-container ul {
+    border-radius: 0;
+    margin-top: 0;
+}
+
+#type-filter {
+    text-align: left;
+}
+
+#findjobs #type-filter ul {
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+    background-color: #ffffff;
+    border-right: 1px solid #cccccc;
+}
+
+#findjobs #type-filter ul li {
+    display: inline-block;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: none;
+    padding-left: 0em;
+}
+
+
+
+
+
+
 /* RESPONSIVIDADE */
 
 @media screen and (max-width: 1165px) {
