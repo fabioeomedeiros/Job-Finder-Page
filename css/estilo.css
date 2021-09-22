@@ -840,4 +840,61 @@ footer .wrapper {
         width: 20%;
     }
 
+    #sendjobs-container {
+        background-position: 35% 0;
+        padding: 0 0 3.5em 0;
+    }
+
+    #sendjobs-container h2 {
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    #sendjobs-container p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    #status-container h2 {
+        padding: 0;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    #status-container p.p-center {
+        padding: 0;
+        text-align: justify;
+        font-size: 1em;
+    }
+
+    #status-container .status-box {
+        width: 100%;
+        margin: 1em 0;
+        border: none;
+        padding: 0;
+    }
+
+    #testmony-container h2 {
+        font-size: 1.5em;
+    }
+
+    .testmony-box {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #blog-container h2 {
+        font-size: 1.5em;
+    }
+
+    #blog-container h4 {
+        font-size: 1.3em;
+    }
+
+    .footer-box {
+        display: block;
+        width: 100%;
+    }
+
 }
