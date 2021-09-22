@@ -648,6 +648,10 @@ footer .wrapper {
     padding-left: 0em;
 }
 
+#findjobs #lastjobs-container {
+    margin-top: 50px;
+}
+
 
 
 
@@ -737,6 +741,17 @@ footer .wrapper {
 
     .article-box {
         width: 30%;
+    }
+
+    /* FINDJOBS PAGE */
+
+    #findjobs #lastjobs-container {
+        margin-top: 90px;
+    }
+
+    #findjobs #type-filter ul li {
+        width: 24%;
+        box-sizing: border-box;
     }
 
 }
