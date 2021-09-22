@@ -37,6 +37,12 @@ header {
     width: 100%;
 }
 
+/* HIDE ON DESKTOP */
+
+.nav-container .btn-menumobile {
+    display: none;
+}
+
 /*NAVBAR*/
 nav {
     position: fixed;
@@ -650,7 +656,7 @@ footer .wrapper {
 
     #lastjobs-container.wrapper, #status-container.wrapper, #blog-container.wrapper, .wrapper {
         max-width: 960px;
-        padding: 0 2em 0 2em;
+        padding: 50px 2em 0 2em;
     }
 
     .btnjobs-container {
@@ -722,6 +728,116 @@ footer .wrapper {
         width: 100%;
         display: block;
         padding: 0px;
+    }
+
+}
+
+@media screen and (max-width: 576px) { /* Anterior ao 425px, porem não afeta o projeto. Será? */
+
+    .nav-container .btn-menumobile {
+        display: block !important;
+    }
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        height: 4em;
+    }
+
+    #logo {
+        left: 2em;
+        height: 2em;
+        width: 2em;
+        margin-top: 1em;
+    }
+
+    .btn-menumobile {
+        display: block;
+        height: 1.75em;
+        position: absolute;
+        right: 1.5em;
+        top: 1em;
+    }
+
+    .nav-container ul {
+        position: relative;
+        top: 4em;
+        height: 3em;
+        line-height: 3em;
+        display: none;
+    }
+
+    .nav-container ul li {
+        display: block;
+        background-color: #f7f7f7;
+        margin: 0;
+        border-top: 1px solid #cccccc;
+    }
+
+    .nav-container ul li a {
+        font-size: 1em;
+    }
+
+    .open { /* Só aparece com a função toggle do jQuery*/
+        display: block !important;
+    }
+
+    #main-banner {
+        margin-top: 4em;
+    }
+
+    #search-form {
+        padding: 16em 0 5em 0;
+        width: 90%;
+    }
+
+    #search-form h1 {
+        font-size: 1.6em;
+    }
+
+    #search-form p {
+        font-size: 1em;
+        margin-bottom: 2em;
+    }
+
+    #search-form form {
+        width: 80%;
+    }
+
+    #search-form input[type=submit] {
+        margin-bottom: 0;
+    }
+    
+    #lastjobs-container {
+        padding: 5em 0;
+    }
+
+    #lastjobs-container h1 {
+        font-size: 1.6em;
+    }
+
+    .locality {
+        display: none;
+    }
+
+    .company-box img {
+        width: 4em;
+    }
+
+    .company-box .company-info {
+        margin-top: 1em;
+        margin-left: 1em;
+        width: 8em;
+    }
+
+    .company-box .company-info h3 {
+        font-size: .7em;
+    }
+
+    .job-type {
+        width: 20%;
     }
 
 }
