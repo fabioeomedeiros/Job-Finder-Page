@@ -587,3 +587,47 @@ footer .wrapper {
     font-weight: 600px;
     margin-top: 40px;
 }
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 1024px) {
+
+    #logo {
+        position: absolute;
+        left: 50px;
+    }
+
+    .nav-container ul {
+        float: none;
+        text-align: center;
+        padding: 0;
+    }
+
+    .nav-container ul li {
+        position: relative;
+        margin: 0px auto;
+        float: none;
+        display: inline-block;
+        margin: 0px 10px;
+    }
+
+    #search-form {
+        padding: 25em 0em 5em 0em;
+    }
+
+    #search-form form {
+        width: 60%;
+        position: relative;
+        margin: 0px auto;
+    }
+
+    #search-form form input, #search-form form select {
+        display: block;
+        margin: 0px 0px 25px 0px;
+        width: 100%;
+        border-width: 0;
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+
+}
